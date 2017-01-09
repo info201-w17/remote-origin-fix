@@ -10,7 +10,7 @@ fatal: unable to access 'https://github.com/info201-w17/module3-markdown.git': T
 Looks scary, right? However, don't fret! There is a really _**easy**_ fix for this!
 
 
-But first, let's understand why we're having this problem in the first place. The main reason that you're unable to `push` to this repository is that it is **not** yours! Even though you may have forked the module, you copied the wrong link to clone down from GitHub, leaving your forked repository to not be cloned to your computer. However, this ins't a big deal, since the repository is the same... After all you did fork it directly!
+But first, let's understand why we're having this problem in the first place. The main reason that you're unable to `push` to this repository is that it is **not** yours! Even though you may have forked the module, you copied the wrong link to clone down from GitHub, leaving your forked repository to not be cloned to your computer. However, this isn't a big deal, since the repository is the same... After all you did fork it directly!
 
 ```
 Note: if you did not fork the repository, you need to do that now!
