@@ -26,12 +26,18 @@ The fix for this is that we need to change what your computer thinks the `origin
 Run the command `git remote -v` and notice that the url that you were not able to push to is there!
 
 So here are the steps to being able to push to your forked repository:
+
 1. Copy the URL from the GitHub repository as if you were going to `clone` it.
+
 2. Navigate to the repository directory in your terminal. (Chances are, you're already there since you're on this fix page)
+
 3. Confirm that the `remote` pointer is pointing at the wrong place by running `git remote -v` and seeing what GitHub username is in the URL
+
 4. Set your forked repository to the origin by running
 ```
 git remote set-url origin {FORKED-REPO-URL}
 ```
+
 5. Run `git remote -v` to confirm that `origin` points to your forked repo
+
 6. Run `git push origin master` and it should work!
